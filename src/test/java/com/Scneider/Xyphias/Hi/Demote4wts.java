@@ -24,7 +24,9 @@ System.setProperty("webdriver.chrome.driver","D:\\Chrome Driver 76\\chromedriver
 		String CRMtitle = driver.getTitle();
 		
 		
-		Assert.assertEquals("CRMtitle","Hey");
+		Assert.assertEquals(CRMtitle,"Hey");
 	}
+	
+	
 
 }

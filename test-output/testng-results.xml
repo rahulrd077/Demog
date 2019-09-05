@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77081" started-at="2019-09-05T14:00:11Z" finished-at="2019-09-05T14:01:29Z">
+  <suite name="Default suite" duration-ms="170359" started-at="2019-09-05T14:24:39Z" finished-at="2019-09-05T14:27:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77081" started-at="2019-09-05T14:00:11Z" finished-at="2019-09-05T14:01:29Z">
+    <test name="Default test" duration-ms="170359" started-at="2019-09-05T14:24:39Z" finished-at="2019-09-05T14:27:30Z">
       <class name="com.Scneider.Xyphias.Hi.Demote4wts">
-        <test-method status="FAIL" signature="Test1()[pri:0, instance:com.Scneider.Xyphias.Hi.Demote4wts@66a3ffec]" name="Test1" duration-ms="76983" started-at="2019-09-05T14:00:12Z" finished-at="2019-09-05T14:01:29Z">
+        <test-method status="FAIL" signature="Test1()[pri:0, instance:com.Scneider.Xyphias.Hi.Demote4wts@66a3ffec]" name="Test1" duration-ms="170220" started-at="2019-09-05T14:24:39Z" finished-at="2019-09-05T14:27:30Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Hey] but found [CRMtitle]]]>
+              <![CDATA[expected [Hey] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Hey] but found [CRMtitle]
+              <![CDATA[java.lang.AssertionError: expected [Hey] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
